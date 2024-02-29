@@ -1,7 +1,9 @@
-
 # Fichier requirements.txt
 
-# Listez ici tous les packages Python nécessaires pour le projet
+# -*- coding: utf-8 -*-
+
+# Listez ici tous les packages Python nÃ©cessaires pour le projet
 numpy==1.20.0
 pandas==1.2.1
 scikit-learn==0.24.1
+
