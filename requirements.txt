@@ -3,7 +3,8 @@
 # -*- coding: utf-8 -*-
 
 # Listez ici tous les packages Python nécessaires pour le projet
-numpy==1.20.0
-pandas==1.2.1
-scikit-learn==0.24.1
+numpy==1.26.4
+pandas==2.2.1
+scikit-learn==1.4.0
+setuptools==60.10.0
 
