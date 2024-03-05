@@ -10,15 +10,12 @@ from gensim.models import LdaModel
 
 import pandas as pd
 import pickle
-filtered_tokenized_vs_original = pd.read_pickle('filtered_tokenized_vs_original.pkl')
-filtered_tokenized_vs_original_1 = pd.read_pickle('filtered_tokenized_vs_original_1.pkl')
-svm_clf = pd.read_pickle('svm_clf.pkl')
-top200_tags = pd.read_pickle('top200_tags.pkl')
-svm_clf = pd.read_pickle('svm_clf.pkl')
-mlb =  pd.read_pickle('mlb.pkl')
-tfidf_vectorizer = pd.read_pickle('tfidf_vectorizer.pkl')
-vocabulary = pd.read_pickle('vocabulary.pkl')
-pca = pd.read_pickle('pca.pkl')
+
+
+
+
+
+
 id2word = pd.read_pickle('id2word.pkl')
  
 
