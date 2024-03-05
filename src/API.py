@@ -7,14 +7,9 @@
 import sys
 from flask import Flask, request, jsonify
 from gensim.models import LdaModel
-
+import os
 import pandas as pd
 import pickle
-
-
-
-
-
 
 id2word = pd.read_pickle('id2word.pkl')
  
@@ -113,7 +108,8 @@ def internal_error(exception):
 def home():
     return "ok"
 try:
-    app.run(port=sys.argv[1],debug=True,use_reloader=False)
+    port = int(os.environ.get('PORT', 5002))
+    app.run(port=port,debug=True,use_reloader=False)
 except Exception as e:
     print(f"%tb",e)
     
