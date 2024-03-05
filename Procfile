@@ -1,1 +1,1 @@
-web: python src/API.py %PORT%
+web: python src/API.py
