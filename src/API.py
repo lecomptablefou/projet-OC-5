@@ -109,9 +109,10 @@ def home():
     return "ok"
 try:
     port = int(os.environ.get('PORT', 5002))
-    app.run(port=port,debug=True,use_reloader=False)
+    app.run(host='0.0.0.0', port=port, debug=True, use_reloader=False)
 except Exception as e:
-    print(f"%tb",e)
+    print(f"%tb", e)
+
     
 
 
